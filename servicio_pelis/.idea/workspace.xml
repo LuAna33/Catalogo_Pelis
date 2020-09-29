@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0018bc3c-b6c4-49f4-9f2f-6ebfeacb6d78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/catalogoPelis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/CPJLaboratorioFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/UISalidaPrograma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/IAccesoDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/IAccesoDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peliculas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/CPJLaboratorioFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/UISalidaPrograma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/IAccesoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/IAccesoDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1heqy7VaN1vW2KcRZlF28H5weXe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Curso\FundamentosJava\ProyectoJavaLaboratorioFinal\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CatalogoPeliculasPresentacion">
+    <configuration name="CPJLaboratorioFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mx.com.gm.peliculas.CPJLaboratorioFinal" />
+      <module name="ProyectoJavaLaboratorioFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.gm.peliculas.negocio.servicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoPeliculasPresentacion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mx.com.gm.peliculas.presentacion.CatalogoPeliculasPresentacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.gm.peliculas.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoPeliculasPresentacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mx.com.gm.peliculas.presentacion.CatalogoPeliculasPresentacion" />
+      <module name="ProyectoJavaLaboratorioFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.gm.peliculas.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CatalogoPeliculasPresentacion" />
+        <item itemvalue="Application.CatalogoPeliculasPresentacion (1)" />
+        <item itemvalue="Application.CPJLaboratorioFinal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0018bc3c-b6c4-49f4-9f2f-6ebfeacb6d78" name="Default Changelist" comment="" />
+      <created>1600382156496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600382156496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)" timestamp="1601076168082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)/0.0.1366.728@0.0.1366.728" timestamp="1601076168082" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601327464943">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601327464943" />
+    <state x="308" y="205" key="FileDocumentManager.FileCacheConflict" timestamp="1601323881317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="205" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1601323881317" />
+    <state width="1306" height="187" key="GridCell.Tab.0.bottom" timestamp="1601329519703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601329519703" />
+    <state width="1306" height="187" key="GridCell.Tab.0.center" timestamp="1601329519702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601329519702" />
+    <state width="1306" height="187" key="GridCell.Tab.0.left" timestamp="1601329519702">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601329519702" />
+    <state width="1306" height="187" key="GridCell.Tab.0.right" timestamp="1601329519703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601329519703" />
+    <state x="279" y="74" key="RollbackChangesDialog" timestamp="1601329578842">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="279" y="74" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601329578842" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1600382410692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600382410692" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600977812230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600977812230" />
+  </component>
+</project>
