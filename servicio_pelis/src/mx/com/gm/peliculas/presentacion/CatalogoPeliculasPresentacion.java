@@ -15,7 +15,7 @@ public class CatalogoPeliculasPresentacion {
         while ( opcion!= 0) {
             System.out.println("\n"
                     + "BIENVENIDO A TU CATALOGO DE PELICULAS \n"
-                    + "SELECCIONAR UNA OPCION \n"
+                    + "SELECCIONA UNA OPCION \n"
                     + " 1.INICIAR CATALOGO DE PELICULAS \n"
                     + " 2.AGREGAR PELICULA \n"
                     + " 3.LISTAR PELICULAS \n"

@@ -1,7 +1,5 @@
 package mx.com.gm.peliculas.datos;
 
-
-
 import mx.com.gm.peliculas.domain.Pelicula;
 import mx.com.gm.peliculas.excepciones.*;
 
@@ -14,6 +12,7 @@ public class AccesoDatosImpl implements IAccesoDatos {
     private String archivoDatos;
 
     public AccesoDatosImpl(String archivoDatos){
+
         this.archivoDatos = archivoDatos;
     }
 

@@ -1,5 +1,8 @@
-package mx.com.gm.peliculas.datospersonas;
-import mx.com.gm.peliculas.excepcionespersonas.*;
+package mx.com.gm.peliculas.servicio;
+import mx.com.gm.peliculas.domain.Pelicula;
+import mx.com.gm.peliculas.excepciones.AccesoDatosExcepciones;
+import mx.com.gm.peliculas.excepciones.EscrituraDatosExcepciones;
+import mx.com.gm.peliculas.excepciones.LecturaDatosExcepciones;
 import mx.com.gm.peliculas.personas.*;
 
 import java.io.*;
@@ -9,19 +12,33 @@ import java.util.List;
 public class AccesoDatosPersonasImpl implements IAccesoDatosPersonas {
     private String archivoDatosSocios;
 
-    public AccesoDatosPersonasImpl(String archivoDatosSocios) {
-
+    public AccesoDatosPersonasImpl() {
         this.archivoDatosSocios = archivoDatosSocios;
     }
 
     @Override
-    public boolean existe() throws AccesoDatosExcPersonas {
+    public boolean existe() throws AccesoDatosExcepciones {
         File archivo = new File(archivoDatosSocios);
         return archivo.exists();
     }
 
     @Override
-    public void crear() throws AccesoDatosExcPersonas {
+    public void escribir(Socio socio, boolean anexar) throws EscrituraDatosExcepciones {
+        File archivo = new File(archivoDatosSocios);
+        try {
+            PrintWriter salida = new PrintWriter (new FileWriter(archivo, anexar));
+            salida.println(socio.toString());
+            salida.close();
+            System.out.println("Ha ingresado el nombre del Socio: " + socio);
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new EscrituraDatosExcepciones("Se produjo un error al escribir el socio:" + e.getMessage());
+        }
+    }
+
+
+    @Override
+    public void crear() throws AccesoDatosExcepciones {
         File archivo = new File(archivoDatosSocios);
         PrintWriter salida = null;
         try {
@@ -30,12 +47,21 @@ public class AccesoDatosPersonasImpl implements IAccesoDatosPersonas {
             System.out.println("Se ha creado un nuevo Socio");
         } catch (IOException e) {
             e.printStackTrace();
-            throw new AccesoDatosExcPersonas("Se produjo una excepcion crear el archivo: " + e.getMessage());
+            throw new AccesoDatosExcepciones("Se produjo una excepcion crear el archivo: " + e.getMessage());
         }
     }
 
     @Override
-    public String buscar(String buscar) throws LecturaDatosExcPersonas {
+    public void borrar() throws AccesoDatosExcepciones {
+        File archivo = new File(archivoDatosSocios);
+        if (archivo.exists()){
+            archivo.delete();
+            //System.out.println("El archivo ha sido borrado");
+        }
+    }
+
+    @Override
+    public String buscar(String buscar) throws LecturaDatosExcepciones {
         File archivo = new File(archivoDatosSocios);
         String resultado = null;
         BufferedReader entrada = null;
@@ -75,7 +101,7 @@ public class AccesoDatosPersonasImpl implements IAccesoDatosPersonas {
 
 
     @Override
-    public List<Socio> listar() throws LecturaDatosExcPersonas {
+    public List<Socio> listar() throws LecturaDatosExcepciones {
         File archivo = new File(archivoDatosSocios);
         List<Socio> socios = new ArrayList<>();
         try {
@@ -90,10 +116,10 @@ public class AccesoDatosPersonasImpl implements IAccesoDatosPersonas {
             entrada.close();
         } catch (FileNotFoundException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcPersonas("Se produjo un error al listar los socios:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo un error al listar los socios:" + a.getMessage());
         } catch (IOException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcPersonas("Se produjo un error al listar los socios:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo un error al listar los socios:" + a.getMessage());
         }
         return socios;
     }
