@@ -8,7 +8,6 @@ public class CatalogoPeliculasImpl implements ICatalogoPeliculas {
 
     private final IAccesoDatos datos;
 
-
     public CatalogoPeliculasImpl(){
         this.datos = new AccesoDatosImpl("catalogoPelis.txt");
     }

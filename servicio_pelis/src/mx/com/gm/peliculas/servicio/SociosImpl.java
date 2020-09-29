@@ -1,8 +1,5 @@
 package mx.com.gm.peliculas.servicio;
 
-import mx.com.gm.peliculas.datospersonas.AccesoDatosPersonasImpl;
-import mx.com.gm.peliculas.datospersonas.IAccesoDatosPersonas;
-
 public class SociosImpl implements ISocios {
 
     private final IAccesoDatosPersonas datos;

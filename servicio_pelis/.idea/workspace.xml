@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0018bc3c-b6c4-49f4-9f2f-6ebfeacb6d78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/catalogoPelis.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/personas/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/personas/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/AccesoDatosPersonasImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/IAccesoDatosPersonas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/ISocios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/SociosImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/CPJLaboratorioFinal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/UISalidaPrograma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/AccesoDatosImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/IAccesoDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/datos/IAccesoDatos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoJavaLaboratorioFinal/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peliculas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/CPJLaboratorioFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/UISalidaPrograma.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/AccesoDatosImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/IAccesoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/datos/IAccesoDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/presentacion/CatalogoPeliculasPresentacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/CatalogoPeliculasImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/com/gm/peliculas/servicio/ICatalogoPeliculas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +40,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Catalogo_Pelis" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PositivoBgh\Desktop\Catalogo_Pelis" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Curso\FundamentosJava\ProyectoJavaLaboratorioFinal\src" />
     </key>
@@ -115,35 +113,58 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)" timestamp="1601076168082">
+    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)" timestamp="1601336745560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)/0.0.1366.728@0.0.1366.728" timestamp="1601076168082" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601327464943">
+    <state x="381" y="22" key="#CatalogoPeliculasPresentacion_(1)/0.0.1366.728@0.0.1366.728" timestamp="1601336745560" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601412635473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601327464943" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601412635473" />
+    <state x="474" y="248" width="436" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601411251747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="248" width="436" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1601411251747" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601411784073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601411784073" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1601398060874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601398060874" />
     <state x="308" y="205" key="FileDocumentManager.FileCacheConflict" timestamp="1601323881317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="205" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1601323881317" />
-    <state width="1306" height="187" key="GridCell.Tab.0.bottom" timestamp="1601329519703">
+    <state width="1306" height="187" key="GridCell.Tab.0.bottom" timestamp="1601400244829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601329519703" />
-    <state width="1306" height="187" key="GridCell.Tab.0.center" timestamp="1601329519702">
+    <state width="1306" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601400244829" />
+    <state width="1306" height="187" key="GridCell.Tab.0.center" timestamp="1601400244829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601329519702" />
-    <state width="1306" height="187" key="GridCell.Tab.0.left" timestamp="1601329519702">
+    <state width="1306" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601400244829" />
+    <state width="1306" height="187" key="GridCell.Tab.0.left" timestamp="1601400244829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601329519702" />
-    <state width="1306" height="187" key="GridCell.Tab.0.right" timestamp="1601329519703">
+    <state width="1306" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601400244829" />
+    <state width="1306" height="187" key="GridCell.Tab.0.right" timestamp="1601400244829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601329519703" />
+    <state width="1306" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601400244829" />
     <state x="279" y="74" key="RollbackChangesDialog" timestamp="1601329578842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
